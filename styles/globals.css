@@ -4,54 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "Calibre";
-    src: url("../fonts/Calibre/Calibre-Light.ttf");
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Calibre";
-    src: url("../fonts/Calibre/Calibre-Medium.ttf");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Calibre";
-    src: url("../fonts/Calibre/Calibre-Regular.ttf");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Calibre";
-    src: url("../fonts/Calibre/Calibre-Semibold.ttf");
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "SF Mono";
-    src: url("../fonts/SFMono/SFMono-Medium.ttf");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "SF Mono";
-    src: url("../fonts/SFMono/SFMono-Regular.ttf");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "SF Mono";
-    src: url("../fonts/SFMono/SFMono-Semibold.ttf");
-    font-weight: 600;
-    font-style: normal;
-}
-
 .responsiveHeading2 {
     font-size: clamp(40px, 8vw, 80px);
 }
