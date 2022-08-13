@@ -1,0 +1,14 @@
+@keyframes appearDefer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.leftLinks,
+.rightLinks {
+    opacity: 0;
+    animation: appearDefer 1s ease-in-out 0s 1 normal forwards;
+}

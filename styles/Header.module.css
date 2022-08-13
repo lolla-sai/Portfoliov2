@@ -1,0 +1,17 @@
+@keyframes dropIn {
+    from {
+        transform: translateY(var(--initialPosition));
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.navLink {
+    display: block;
+    /* transform: translateY(var(--initialPosition)); */
+    /* opacity: 0; */
+    /* animation: dropIn 1s ease-in-out 0s 1 normal forwards; */
+}

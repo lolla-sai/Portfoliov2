@@ -1,0 +1,148 @@
+
+                            {/* <button
+                                className="px-6 whitespace-nowrap h-[var(--tab-height)] flex items-center focus:bg-white/5 hover:bg-white/5 w-[20ch] text-left"
+                                onClick={() => setActiveButton(0)}
+                            >
+                                OneShield
+                            </button>
+                            <button
+                                className="px-6 whitespace-nowrap h-[var(--tab-height)] flex items-center focus:bg-white/5 hover:bg-white/5 w-[20ch] text-left"
+                                onClick={() => setActiveButton(1)}
+                            >
+                                Engineering
+                            </button>
+                            <button
+                                className="px-6 whitespace-nowrap h-[var(--tab-height)] flex items-center focus:bg-white/5 hover:bg-white/5 w-[20ch] text-left"
+                                onClick={() => setActiveButton(2)}
+                            >
+                                Higher Secondary
+                            </button> */}
+
+
+
+<div className="panel-1 relative">
+                                <h4 className="text-xl font-semibold text-[#ccd6f6] mb-2">
+                                    Studio Developer{" "}
+                                    <span className="text-green-400">
+                                        @ Scout
+                                    </span>
+                                </h4>
+                                <span className="timeline font-custom-mono">
+                                    January - June 2017
+                                </span>
+                                <p className="text-lg my-3 pl-8 relative before:content-['▹'] before:text-2xl before:block before:absolute before:left-0 before:text-green-400 max-w-prose">
+                                    Collaborated with a small team of student
+                                    designers to spearhead a new brand and
+                                    design system for Scout’s inaugural
+                                    student-led design conference at
+                                    Northeastern
+                                </p>
+                                <p className="text-lg my-3 pl-8 relative before:content-['▹'] before:text-2xl before:block before:absolute before:left-0 before:text-green-400 max-w-prose">
+                                    Worked closely with designers and management
+                                    team to develop, document, and manage the
+                                    conference’s marketing website using Jekyll,
+                                    Sass, and JavaScript
+                                </p>
+                            </div>
+
+
+
+                    <SectionHeader highlight="02." title="My Education" />
+
+
+
+
+
+
+
+<nav className="navbar navbar-expand-lg bg-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">
+                        Navbar
+                    </a>
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        className="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a
+                                    className="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    Link
+                                </a>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <a
+                                    className="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Dropdown
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li>
+                                        <a className="dropdown-item" href="#">
+                                            Action
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className="dropdown-item" href="#">
+                                            Another action
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <hr className="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a className="dropdown-item" href="#">
+                                            Something else here
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                        <form className="d-flex" role="search">
+                            <input
+                                className="form-control me-2"
+                                type="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                            />
+                            <button
+                                className="btn btn-outline-success"
+                                type="submit"
+                            >
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <section className="container py-5">
+                <h1>Hi, how are you</h1>
+                <button className="btn btn-primary">Hi, click me!</button>
+            </section>
